@@ -1,0 +1,94 @@
+FEW POINTS --                           (1)  Mulitple algorithmic exist for same problem,    
+                                                (2)  same algorithm with same language can be implemented in diff. ways. ,                                                                                                                       |                                              (3)  hwhile writing programs, focus on big picture, rather writing clever code, code should be simple and maintainable. 
+
+
+Worst case complexity is represnted by big-O notation. 
+big-0 time complexity -  It focuses on bigger picture 
+
+time complexity -         
+                                   0(n) - Linear 
+when there is loop it can be called time complexity as Linear
+                                  0(1) - constant
+when there a function performs only once it is-   constant
+
+                                0(n^2)- Quadratic
+when there is a for loop inside a for loop- Quadratic
+
+                              0(n^3) - Cubic
+when there is a for loop inside a for loop which is also in a for loop, it is called - cubic
+
+                            0(logn) - Logarithmic
+
+space complexity -
+
+                         0(1) - constant
+                        0(n)- Linear
+                       0(logn)- Logarithmic
+                      d
+                     d
+                    d
+                   d
+                  d
+                 d
+                d
+               d 
+              d
+             d
+            d
+           d
+          d
+         d
+        d
+       d
+      d
+     d
+    d
+   d
+  d
+ d
+d
+
+
+Objects -         Big- 0
+
+Insert, Remove, access - 0(1)
+Search, Objects.Keys(), Objects.values(), Object.entries() - 0(n)
+
+Array - Big-0 
+
+Insert/ remove at end, Access, Push/pop - 0(1)
+Insert/remove at beginning, Search, Shift/unshift/concat/slice, splice, ForEach/map/filter/reduce - 0(n)
+
+Math Algorithm-       
+1. fibonacci sequence
+2. Factorial of a number
+3. Prime Number
+4.Power of two
+5. Recursion
+6. Fibonacci sequence with recursion
+7.Factorial of a number with recursion.
+
+The approach - 
+Problem statement
+Pause video to try sovling
+implement sol. together.
+determine the big-0 of the solution.
+
+Fibonnaci sequence--   0(n)
+Factorial of a number --  0(n)
+primeNumber           -- 0(n)
+
+
+
+
+                                                         TREE structure
+      nodes that don't have any children are called leaf nodes.
+        parents's parents are called ancestors.  
+        Path --     between ancestor and child   
+        degree of a node is a total no. of child it has.
+        degree of a tree is defined by the max. degree a node of that tree has.   
+        depth is no. of edges a node has from root.
+        height is no. of edges a node has from the lowest node in the tree                                    
+
+                                                
+  
