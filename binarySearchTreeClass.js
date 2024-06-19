@@ -32,7 +32,21 @@ class BinarySearchTree {
 			if (root.right === null) {
 				root.right = newNode;
 			} else {
-                        this.insertNode(root.right, newNode)
+				this.insertNode(root.right, newNode);
+			}
+		}
+	}
+
+	search(root, value) {
+		if (!root) {
+			return false;
+		} else {
+			if (root.value === value) {
+				return true;
+			} else if (root.value < value) {
+				this.search(root.right, value);
+			} else {
+				this.search(root.left, value);
 			}
 		}
 	}
@@ -40,3 +54,12 @@ class BinarySearchTree {
 
 const bst = new BinarySearchTree();
 console.log("free is empty?", bst.isEmpty());
+
+console.log(bst.insert(10));
+console.log(bst.insert(5));
+console.log(bst.insert(15));
+
+console.log(bst.search(bst.root, 10));
+console.log(bst.search(bst.root, 5));
+console.log(bst.search(bst.root, 15));
+console.log(bst.search(bst.root, 20));
